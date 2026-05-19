@@ -1,0 +1,12 @@
+# Agentic Budget Router MCP
+
+Paid remote MCP for agentic workflow budget quotes, policy checks, spend approvals, usage receipts, and cost evidence exports.
+
+Website: https://agenticbudgetrouter.clauxel.com/
+MCP endpoint: https://agenticbudgetrouter.clauxel.com/mcp
+Server card: https://agenticbudgetrouter.clauxel.com/server-card.json
+Docs: https://github.com/clauxel/agentic-budget-router-mcp
+
+Use case: Route agentic workflow spend through quotes, policy gates, and receipts.
+Authentication: Bearer token required for production use.
+Tools: quote_agentic_budget, check_budget_policy, request_spend_approval, issue_spend_receipt, export_usage_evidence
