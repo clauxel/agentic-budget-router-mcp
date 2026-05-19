@@ -1,0 +1,27 @@
+{
+  "name": "com.clauxel.agenticbudgetrouter/agenticbudgetrouter-mcp",
+  "title": "Agentic Budget Router MCP",
+  "description": "Paid remote MCP for agentic workflow budget quotes, policy checks, spend approvals, usage receipts, and cost evidence exports.",
+  "version": "1.0.0",
+  "websiteUrl": "https://agenticbudgetrouter.clauxel.com/",
+  "documentationUrl": "https://github.com/clauxel/agentic-budget-router-mcp",
+  "serverCardUrl": "https://agenticbudgetrouter.clauxel.com/server-card.json",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agenticbudgetrouter.clauxel.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer token from the product website."
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "agentic-ai",
+    "budget-approval",
+    "cost-governance",
+    "remote-mcp"
+  ]
+}
